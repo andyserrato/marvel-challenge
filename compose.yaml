@@ -5,6 +5,6 @@ services:
       - 'MYSQL_DATABASE=marvel_app'
       - 'MYSQL_PASSWORD=secret'
       - 'MYSQL_ROOT_PASSWORD=verysecret'
-      - 'MYSQL_USER=myuser'
+      - 'MYSQL_USER=thor'
     ports:
-      - '3306'
+      - '5241:5241'
